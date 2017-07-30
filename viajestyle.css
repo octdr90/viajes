@@ -1,0 +1,100 @@
+/*
+Colores
+body...3DA888
+
+footer.EC5575
+link redes sociales 2F9879
+hoover  9DF5DA
+*/
+
+@media screen and (min-width:480px){
+  li {
+    display: inline-block;
+  }
+  .juntos {
+    width: 80%;
+    margin: 8%;
+  }
+}
+@media screen and (min-width:767px){
+  .juntos {
+    display: inline-block;
+    width: 40%;
+    padding: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  li {
+    display: inline-block;
+  }
+}
+@media screen and (min-width:950px){
+  .juntos {
+    display: inline-block;
+    width: 40%;
+  }
+  li {
+    display: inline-block;
+  }
+}
+.botonmenu {
+  border-style: solid;
+  border-radius: 6px;
+  text-decoration: none;
+  padding:5px 15px 5px 15px;
+  margin:5px 15px 5px 15px;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+section {
+  border-color:black;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 6px;
+}
+article {
+  border-color:black;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 6px;
+}
+aside {
+  border-color:black;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 6px;
+}
+div {
+  border-color:black;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 6px;
+}
+.menu {
+  border-color:black;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 6px;
+}
+footer {
+  background-color: #EC5575;
+}
+.group_redes_sociales {
+  padding: 20px;
+}
+.social {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+}
+.social:link{
+  color:#2F9879;
+}
+.social:visited{
+  color:#2F9879;
+}
+.social:hover{
+  color:#9DF5DA;
+}
